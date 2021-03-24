@@ -5,7 +5,7 @@ body{
   }
 header img{
     width: 1320px;
-    height: 650px;
+    height: 654px;
 }
 .headDiv1{
     position: absolute;
@@ -50,6 +50,7 @@ h2 {
     border:1px solid #d6bcd6;
 }
 .homebutton {
+    z-index: 5;
     position: fixed;
     background:linear-gradient(to bottom, #ededed 5%, #bab1ba 100%);
     background-color:#ededed;
@@ -66,10 +67,20 @@ h2 {
     height: 40px;
     border:1px solid #d6bcd6;
 }
+main{
+    background-color: #bab1ba;
+    position: relative;
+    height: 600px;
+}
 #aboutMe img{
     height: 500px;
-
+    float: left;
+    padding-top: 20px;
 }
-main{
-    position: relative;
+.mainDiv2{
+    padding-top: 60px;
+}
+.h2main{
+    color: #40514E;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
