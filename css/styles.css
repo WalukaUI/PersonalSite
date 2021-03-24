@@ -1,14 +1,24 @@
+body{
+    margin: 0;
+    text-align:center;
+    font-family: 'Merriweather', serif;
+    color: #40514E;
+  }
 header img{
     height: 850px;
 }
-div {
+.headDiv1{
     position: absolute;
+}
+.headDiv2{
+    position: absolute;
+    margin-left: 50%;
 }
 h1 {
     color: #00bcd4;
-    font-size: 5rem;
+    font-size: 4rem;
     margin: 50px auto 0 auto;
-    font-family: 'Marck Script', cursive;
+    font-family: cursive;
     line-height: 200%;
     font-weight: bolder;
     }
