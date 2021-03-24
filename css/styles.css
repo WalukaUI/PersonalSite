@@ -5,7 +5,8 @@ body{
     color: #40514E;
   }
 header img{
-    height: 850px;
+    width: 1320px;
+    height: 650px;
 }
 .headDiv1{
     position: absolute;
@@ -32,8 +33,7 @@ h2 {
 .codeImg{
     height: 100px;
 }
-.contactbtn {
-    position: absolute;
+.morebtn {
     background:linear-gradient(to bottom, #ededed 5%, #bab1ba 100%);
     background-color:#ededed;
     border-radius:20px;
