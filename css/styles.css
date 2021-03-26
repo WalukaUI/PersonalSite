@@ -33,7 +33,7 @@ h2 {
     height: 100px;
 }
 .morebtn {
-    background:linear-gradient(to bottom, #ededed 5%, #bab1ba 100%);
+    background:linear-gradient(to bottom, #0b9ff5 5%, #35109b 100%);
     background-color:#ededed;
     border-radius:20px;
     display:inline-block;
