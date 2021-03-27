@@ -111,6 +111,25 @@ h3{
     padding-right: 100px;
     margin-right: 30px;
 }
+#mySites{
+    background:linear-gradient(to left, #2f5a9b 5%, #f7c4c4 100%);
+    height: 600px;
+    padding-top: 30px;
+    text-align: center;
+    font-size: xx-large;
+}
+.allsitesImg{
+    width: 600px;
+    float: right;
+}
+.linkss{
+    text-align: left;
+    padding-left: 100px;
+    line-height: 2;
+    padding-top: 50px;
+}
+
+
 .bottom-container{
     background-color: #66BFBF;
     padding-top: 70px;
