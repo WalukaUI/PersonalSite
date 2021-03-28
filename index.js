@@ -1,4 +1,4 @@
-
+//EventListner for main
 const inputbutton = document.querySelector('.aboutButton');
 function showMe() {
   var maineDiv = document.getElementById('main');
@@ -11,7 +11,7 @@ function showMe() {
 }
 inputbutton.addEventListener('click', showMe);
 
-
+//EventListner for skills Div
 const inputMySkills = document.querySelector('.mySkills');
 function showMeSkills() {
   var skillsDiv = document.getElementById('skills');
@@ -24,7 +24,7 @@ function showMeSkills() {
 }
 inputMySkills.addEventListener('click', showMeSkills);
 
-
+//EventListner for My Sites Div
 const inputMySites = document.querySelector('.toMySites');
 function showMeSites() {
   var mySitesDiv = document.getElementById('mySites');
@@ -37,6 +37,7 @@ function showMeSites() {
 }
 inputMySites.addEventListener('click', showMeSites);
 
+//EventListner for Contact me Div
 const inputContactMe = document.querySelector('.contactMeBtn');
 function showMyContacts() {
   var myContactDtls = document.getElementById('contactMe');
