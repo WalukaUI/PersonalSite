@@ -81,12 +81,12 @@ h2 {
   border: 1px solid #d6bcd6;
 }
 
-main {
+#main {
   background-color: #bab1ba;
   position: relative;
   height: 600px;
-}
-
+  display:inline-flexbox;
+} 
 #aboutMe img {
   height: 500px;
   float: left;
