@@ -108,11 +108,12 @@ h2 {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   height: 600px;
   padding-top: 40px;
-  backgrounddarkblue: linear-gradient(to left, #ededed 5%, #bab1ba 100%);
+  background: linear-gradient(to left, #ededed 5%, #bab1ba 100%);
   color: ;
   line-height: 2rem;
   font-size: 1.5rem;
   line-height: 1.5;
+  display: none;
 }
 
 h3 {
