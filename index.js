@@ -36,3 +36,15 @@ function showMeSites() {
   }
 }
 inputMySites.addEventListener('click', showMeSites);
+
+const inputContactMe = document.querySelector('.contactMeBtn');
+function showMyContacts() {
+  var myContactDtls = document.getElementById('contactMe');
+  if(myContactDtls.style.display === '' || myContactDtls.style.display === 'none'){
+    myContactDtls.style.display = 'block';
+  }
+  else {
+    myContactDtls.style.display = 'none';
+  }
+}
+inputContactMe.addEventListener('click', showMyContacts);
